@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE-Chrome" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>Buy groceries <span id="counter"></span></h2>
+      <ul>
+        <li id="one" class="hot"><em>fresh</em> figs</li>
+        <li id="two" class="hot">pine nuts</li>
+        <li id="three" class="hot">honey</li>
+        <li id="four">balsamic vinegar</li>
+      </ul>
+      <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Add description" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="Index.js"></script>
+  </body>
+</html>
